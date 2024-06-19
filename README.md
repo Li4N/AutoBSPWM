@@ -7,7 +7,7 @@
 
 # Instalación
 ```
-git clone https://github.com/Justice-Reaper/AutoBSPWM.git  
+git clone https://github.com/Li4N/AutoBSPWM.git
 cd AutoBSPWM/  
 chmod +x AutoBSPWM.sh  
 sudo ./AutoBSPWM.sh  
