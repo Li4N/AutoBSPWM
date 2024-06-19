@@ -26,7 +26,7 @@ wmname LG3D &
 export _JAVA_AWT_WM_NONREPARENTING=1
 
 # wallpaper
-feh --bg-fill /home/user_replace/Pictures/wallpaper.jpg &
+feh --bg-fill /home/user_replace/Wallpapers/wallpaper.jpg &
 
 # polybar
 if pgrep -x "polybar" > /dev/null
