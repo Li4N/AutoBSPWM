@@ -14,7 +14,8 @@ sudo ./AutoBSPWM.sh
 ```
 
 ## Vista general
-![Preview Entorno BSPWM](/Preview/image.png "autoBSPWM by justice-reaper")
+![Preview](https://github.com/Li4N/AutoBSPWM/assets/46818546/33d76670-fc26-47ca-a737-2a3619d2e8ac)
+
 
 ## Componentes:
 - **imagemagick**: Suite de software para crear, editar o convertir imágenes desde la línea de comandos.
