@@ -55,14 +55,14 @@ zstyle ':completion:*' verbose true
 
 zstyle ':completion:*:*:kill:*:processes' list-colors '=(#b) #([0-9]#)*=0=01;31'
 zstyle ':completion:*:kill:*' command 'ps -u $USER -o pid,%cpu,tty,cputime,cmd'
-source /home/li4n/.powerlevel10k/powerlevel10k.zsh-theme
+source /home/user_replace/.powerlevel10k/powerlevel10k.zsh-theme
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ -f ~/.p10k.zsh ]] && source ~/.p10k.zsh
 
 # Manual configuration
 
-PATH=/root/.local/bin:/snap/bin:/usr/sandbox/:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/share/games:/usr/local/sbin:/usr/sbin:/sbin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/home/li4n/GithubTools/
+PATH=/root/.local/bin:/snap/bin:/usr/sandbox/:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/share/games:/usr/local/sbin:/usr/sbin:/sbin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/home/user_replace/GithubTools/
 
 # Manual aliases
 alias ll='lsd -la --group-dirs=first'
@@ -176,8 +176,8 @@ function settarget(){
  if [[ "$#" -eq 2 ]]; then
    machine_name=$1
    ip_address=$2
-   echo "$ip_address" > /home/li4n/.config/polybar/scripts/targetIP
-   echo "$machine_name" > /home/li4n/.config/polybar/scripts/targetName
+   echo "$ip_address" > /home/user_replace/.config/polybar/scripts/targetIP
+   echo "$machine_name" > /home/user_replace/.config/polybar/scripts/targetName
  else
    echo '' > ~/.config/polybar/scripts/targetIP
    echo '' > ~/.config/polybar/scripts/targetName
@@ -210,4 +210,4 @@ fi
 
 
 # Created by `pipx` on 2023-04-17 21:52:06
-export PATH="$PATH:/home/li4n/.local/bin"
+export PATH="$PATH:/home/user_replace/.local/bin"
