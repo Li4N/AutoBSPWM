@@ -4,7 +4,7 @@
 
 # increase volume
 super + F7
-        /home/li4n/.config/polybar/scripts/increase_volume.sh
+        /home/user_replace/.config/polybar/scripts/increase_volume.sh
 
 # decrease volume
 super + F6
@@ -16,15 +16,15 @@ super + F5
 
 # terminal emulator
 super + Return
-	kitty --session /home/li4n/.config/kitty/kali.conf
+	kitty --session /home/user_replace/.config/kitty/kali.conf
 
 # rofi launcher
 super + d
-	/home/li4n/.config/rofi/launcher/launcher.sh
+	/home/user_replace/.config/rofi/launcher/launcher.sh
 
 # rofi powermenu
 super + shift + p
-	/home/li4n/.config/rofi/powermenu/powermenu.sh
+	/home/user_replace/.config/rofi/powermenu/powermenu.sh
 
 # make sxhkd reload its configuration files:
 super + Escape
@@ -138,7 +138,7 @@ super + shift + {Left,Down,Up,Right}
 
 # custom resize
 super + alt + {Left,Down,Up,Right}
-	/home/li4n/.config/bspwm/scripts/bspwm_resize {west,south,north,east}
+	/home/user_replace/.config/bspwm/scripts/bspwm_resize {west,south,north,east}
 
 # firefox
 super + shift + f
@@ -166,12 +166,12 @@ super + shift + v
 
 # copy local ip address
 super + shift + F1
-        /home/li4n/.config/polybar/scripts/copy_ethernet_ip.sh
+        /home/user_replace/.config/polybar/scripts/copy_ethernet_ip.sh
 
 # copy vpn ip address
 super + shift + F2
-        /home/li4n/.config/polybar/scripts/copy_vpn_ip.sh     
+        /home/user_replace/.config/polybar/scripts/copy_vpn_ip.sh     
 
 # copy target ip address
 super + shift + F3
-        /home/li4n/.config/polybar/scripts/copy_target_ip.sh
+        /home/user_replace/.config/polybar/scripts/copy_target_ip.sh
