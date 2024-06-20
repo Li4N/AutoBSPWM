@@ -1,16 +1,11 @@
-# AutoBSPWM
-- Este script AutoBSPWM ha sido creado por investigación propia utilizando como base el curso de personalización de linux de la academia de Hack4u https://hack4u.io/cursos/personalizacion-de-entorno-en-linux/.  
-- Este script AutoBSPWM ha sido sido testeado en kali linux nativo y máquina virtual, se desconoce si puede acarrear problemas en otros sistemas operativos que no sean kali linux.
-- Opciones de instalación: Equipo de escritorio, máquina virtual y nativo.
-- Cada vez que se desee actualizar cualquiera de los componentes del entorno puedes ejecutar el script y se eliminarán los componentes antiguos y se instalarán los componentes actualizados.
-- Si tienes alguna duda o deseas que implemente alguna nueva funcionalidad no dudes en consultarme.  
+# BSPWMoner
 
 # Instalación
 ```
-git clone https://github.com/Li4N/AutoBSPWM.git
-cd AutoBSPWM/  
-chmod +x AutoBSPWM.sh  
-sudo ./AutoBSPWM.sh  
+git clone https://github.com/Li4N/BSPWMoner.git
+cd BSPWMoner/  
+chmod +x BSPWMoner.sh  
+sudo ./BSPWMoner.sh  
 ```
 
 ## Vista general
@@ -39,11 +34,11 @@ sudo ./AutoBSPWM.sh
 - **nvim**: Editor de texto extremadamente configurable y poderoso, una versión mejorada del clásico Vim.
 - **npm**: Administrador de paquetes que simplifica la gestión de dependencias y módulos en proyectos.
 - **nvchad**: Un conjunto de configuraciones y complementos preconfigurados para Neovim, que mejora la experiencia de uso de este potente editor de texto.
+- **havoc**: Un framework OpenSource de Command & Control desarrollado por @Cracked5pider
 
 ## Shortcuts IP's
 <kbd>Windows</kbd> + <kbd>Shift</kbd> + <kbd>F1</kbd> : Copiar dirección ip del equipo local.  
 <kbd>Windows</kbd> + <kbd>Shift</kbd> + <kbd>F2</kbd> : Copiar dirección ip de la vpn.  
-<kbd>Windows</kbd> + <kbd>Shift</kbd> + <kbd>F3</kbd> : Copiar dirección ip del target.  
 
 ## Shortcuts de Ventanas
 <kbd>Windows</kbd> + <kbd>S</kbd>: Crear ventanas flotantes.  
@@ -78,7 +73,7 @@ sudo ./AutoBSPWM.sh
 <kbd>Windows</kbd> + <kbd>Shift</kbd> + <kbd>B</kbd> : Abrir el burpsuite.  
 <kbd>Windows</kbd> + <kbd>Shift</kbd> + <kbd>V</kbd> : Abrir el vscode.   
 <kbd>Impr Pa</kbd> : Hacer captura de pantalla.   
-<kbd>Windows</kbd> + <kbd>Shift</kbd> + <kbd>D</kbd> : Abrir el rofi launcher.  
+<kbd>Windows</kbd> + <kbd>D</kbd> : Abrir el rofi launcher.  
 <kbd>Windows</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd> : Abrir el rofi powermenu.  
 <kbd>Esc</kbd> Salir del rofi.  
 <kbd>Windows</kbd> + <kbd>Shift</kbd> + <kbd>G</kbd> : Abrir el gestor de archivos thunar.  
@@ -129,7 +124,3 @@ sudo ./AutoBSPWM.sh
 <kbd>Settarget</kbd>: Mediante esta función en la zsh seteamos el target en la polybar.  
 <kbd>Cleartarget</kbd>: Mediante esta función en la zsh limpiamos el target de la polybar.  
 <kbd>Mkt</kbd>: Se crean varios directorios de trabajo.  
-
-## Créditos
-- Autor: Justice-Reaper
-- Inspiración: Entorno mostrado en la academia de hack4u de s4vitar
