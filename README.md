@@ -34,7 +34,7 @@ sudo ./BSPWMoner.sh
 - **nvim**: Editor de texto extremadamente configurable y poderoso, una versión mejorada del clásico Vim.
 - **npm**: Administrador de paquetes que simplifica la gestión de dependencias y módulos en proyectos.
 - **nvchad**: Un conjunto de configuraciones y complementos preconfigurados para Neovim, que mejora la experiencia de uso de este potente editor de texto.
-- **havoc**: Un framework OpenSource de Command & Control desarrollado por @Cracked5pider
+- **havoc framework**: Un framework OpenSource de Command & Control desarrollado por @Cracked5pider
 
 ## Shortcuts IP's
 <kbd>Windows</kbd> + <kbd>Shift</kbd> + <kbd>F1</kbd> : Copiar dirección ip del equipo local.  
