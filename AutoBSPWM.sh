@@ -410,6 +410,38 @@ while true; do
     fi
 done
 
+# INSTALACIÓN DE HAVOC FRAMEWORK
+while true; do
+    read -p "$(echo -e "\e[33m[*]\e[0m ¿Quieres instalar Havoc Framework? (SI/NO): ")" response
+    response=$(echo "$response" | tr '[:upper:]' '[:lower:]')
+
+    if [ "$response" = "si" ] || [ "$response" = "s" ]; then
+        echo -e "\e[33m[*]\e[0m Instalando Havoc Framework...\n"
+        cd /opt
+        if [ -d "Havoc" ]; then
+            echo -e "\e[32m[*]\e[0m El directorio /opt/Havoc ya existe. Actualizando el repositorio...\n"
+            cd Havoc
+            git pull
+        else
+            echo -e "\e[32m[*]\e[0m Clonando el repositorio de Havoc Framework...\n"
+            git clone https://github.com/HavocFramework/Havoc.git
+            cd Havoc
+        fi
+
+        # Ejecución de los pasos de instalación del Havoc Framework
+        echo -e "\e[33m[*]\e[0m Ejecutando los pasos de instalación del Havoc Framework...\n"
+        make install
+
+        echo -e "\e[32m[*]\e[0m Havoc Framework instalado correctamente.\n"
+        break
+    elif [ "$response" = "no" ] || [ "$response" = "n" ]; then
+        echo -e "\e[31m[*]\e[0m Havoc Framework no ha sido instalado.\n"
+        break
+    else
+        echo -e "\e[31m[*]\e[0m Respuesta no válida. Por favor, responde 'SI' o 'NO'.\n"
+    fi
+done
+
 # SUSTITUIMOS USER_REPLACE POR EL USUARIO ELEGIDO
 echo -e "\e[32m[*]\e[0m Configurando ficheros ...\n"
 sed -i "s/user_replace/$input_username/g" /home/$input_username/.config/polybar/*  
